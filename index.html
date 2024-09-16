@@ -37,7 +37,7 @@
                 justify-content: center; 
             }
 
-            #menu1 a, #menu2 a {
+            .menus a {
                 display: inline-block;
                 background-color: white;
                 border: 2px solid black;
@@ -51,11 +51,11 @@
                 transition: all 0.1s ease;
             }
             
-            #menu1 a:active, #menu2 a:active {
+            .menus a:active {
                 animation: blink 0.2s ease 1; 
             }
             
-            #menu1 a:hover, #menu2 a:hover {
+            .menus a:hover{
                 background-color: lightgray;
             }
             
@@ -143,16 +143,16 @@
             }
 
             #rodape {
-                background-color: #1a1a1a; /* Cor preta de fundo */
-                color: white; /* Cor branca do texto */
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fonte geral do site */
-                font-size: 20px; /* Tamanho da fonte */
-                text-align: center; /* Centraliza o texto */
-                padding: 10px; /* Espaçamento interno */
-                border-radius: 5px; /* Bordas arredondadas para um visual suave */
-                margin: 20px auto; /* Espaçamento superior e inferior */
-                width: 80%; /* Largura ajustada */
-                box-shadow: 5px 5px 5px rgb(0, 0, 0); /* Sombra para destacar */
+                background-color: #1a1a1a;
+                color: white; 
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 20px; 
+                text-align: center; 
+                padding: 10px;
+                border-radius: 5px; 
+                margin: 20px auto; 
+                width: 80%;
+                box-shadow: 5px 5px 5px rgb(0, 0, 0); 
             }
             
 
@@ -161,7 +161,8 @@
     <div class="box"><body>
         <div id="logo"><img src="jp_topoLogotipo.png"></div>
         
-        <div class="menu-container"><div id="menu1"><a href="#filmes">FILMES </a></div> <div id="menu2"><a href="#premios"> PRÊMIOS</a></div></div>
+        <div class="menu-container"><div class="menus"><a href="#filmes">FILMES</a></div> <div class="menus"><a href="#premios">PRÊMIOS</a></div>
+        <div class="menus"><a href="login.html" target="_blank">LOGIN</a></div><div class="menus"><a href="formulario.html" target="_blank">FORMULÁRIO</a></div></div>
         <br><br>
 
         <div class="texto-menus" id="filmes">FILMES DA SAGA JURASSIC PARK</div>
