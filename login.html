@@ -68,15 +68,24 @@
         </style>
     </head>
     <body><div class="box">
-        <div id="logo"><img src="jp_topoLogotipo.png"></div>
+        <header>
+            <div id="logo">
+                <img src="jp_topoLogotipo.png" alt="Logotipo do Site">
+            </div>
+        </header>
 
-        <div id="titulo-formulario"> LOGIN </div>
-        <form action="adm.html">
-            <label>Login/E-mail: </label><input type="email" placeholder="Escreva o seu email..."><br>
-            <label>Senha: </label><input type="password" placeholder="Digite a sua senha..."><br>
+        <main>
+            <section>
+                <div id="titulo-formulario">LOGIN</div>
+                <form action="adm.html">
+                    <label for="email">Login/E-mail: </label>
+                    <input type="email" id="email" placeholder="Escreva o seu email..."><br>
+                    <label for="senha">Senha: </label>
+                    <input type="password" id="senha" placeholder="Digite a sua senha..."><br>
 
-            <input type="submit" value="LOGAR">
-        </form>
-        
-    </div></body>
+                    <input type="submit" value="LOGAR">
+                </form>
+            </section>
+        </main>
+    </body>
 </html>
