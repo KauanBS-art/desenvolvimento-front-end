@@ -70,35 +70,52 @@
             }
         </style>
     </head>
-    <body><div class="box">
-        <div id="logo"><img src="jp_topoLogotipo.png"></div>
+    <body>
+        <main>
+            <section class="box">
+                <header id="logo">
+                    <img src="jp_topoLogotipo.png" alt="Logotipo Jurassic Park">
+                </header>
 
-        <div id="titulo-formulario"> FORMULÁRIO </div>
-        <form>
-            <label>Nome: </label><input type="text" placeholder="Escreva o seu nome..."><br>
-            <label>E-mail: </label><input type="email" placeholder="Escreva o seu email..."><br>
-            <label>Idade: </label><input type="number" min="0" max="130"><br>
-            <label>Sexo: </label><input type="radio" name="sexoPessoa" value="M"> Masculino <input type="radio" name="sexoPessoa" value="F"> Feminino<input type="radio" name="sexoPessoa" value="O"> Outro <br>
-            <label for="estado-civil">Estado Civil: </label>
-            <select id="estado-civil">
-                <option value="solteiro">Solteiro(a)</option>
-                <option value="casado">Casado(a)</option>
-                <option value="divorciado">Divorciado(a)</option>
-                <option value="viuvo">Viúvo(a)</option>
-                <option value="outro">Outro</option>
-            </select><br><br>
-            
-            <div id="boxform">
-                <label> Filmes Favoritos da saga: </label><br><br>
-                <input type="checkbox" name="jp1"> JURASSIC PARK: O PARQUE DOS DINOSSAUROS<br>
-                <input type="checkbox" name="jp2"> JURASSIC PARK: O MUNDO PERDIDO<br>
-                <input type="checkbox" name="jp3"> JURASSIC PARK III<br>
-                <input type="checkbox" name="jp4"> JURASSIC WORLD<br>
-                <input type="checkbox" name="nenhum"> NENHUM DESTES ACIMA<br>
-            </div>
-            <br>
-            <input type="submit" value="Enviar dados">
-            <input type="reset" value="Limpar todos os dados">
-        </form>
-    </div></body>
+                <h1 id="titulo-formulario"> FORMULÁRIO </h1>
+
+                <form>
+                    <label>Nome: </label>
+                    <input type="text" placeholder="Escreva o seu nome..."><br>
+
+                    <label>E-mail: </label>
+                    <input type="email" placeholder="Escreva o seu email..."><br>
+
+                    <label>Idade: </label>
+                    <input type="number" min="0" max="130"><br>
+
+                    <label>Sexo: </label>
+                    <input type="radio" name="sexoPessoa" value="M"> Masculino 
+                    <input type="radio" name="sexoPessoa" value="F"> Feminino
+                    <input type="radio" name="sexoPessoa" value="O"> Outro <br>
+
+                    <label for="estado-civil">Estado Civil: </label>
+                    <select id="estado-civil">
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                        <option value="outro">Outro</option>
+                    </select><br><br>
+                    
+                    <div id="boxform">
+                        <label> Filmes Favoritos da saga: </label><br><br>
+                        <input type="checkbox" name="jp1"> JURASSIC PARK: O PARQUE DOS DINOSSAUROS<br>
+                        <input type="checkbox" name="jp2"> JURASSIC PARK: O MUNDO PERDIDO<br>
+                        <input type="checkbox" name="jp3"> JURASSIC PARK III<br>
+                        <input type="checkbox" name="jp4"> JURASSIC WORLD<br>
+                        <input type="checkbox" name="nenhum"> NENHUM DESTES ACIMA<br>
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar dados">
+                    <input type="reset" value="Limpar todos os dados">
+                </form>
+            </section>
+        </main>
+    </body>
 </html>
