@@ -1,6 +1,7 @@
 /*Geral das páginas*/
 
 html {
+    min-height: 100%;
     margin: 0;
 }
 
@@ -93,6 +94,20 @@ form {
     box-shadow: 5px 5px 5px rgb(90, 0, 0);
 }
 
+.edit_form{
+    text-align: center;
+}
+
+.edit_input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(188, 146, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
 #rodape {
     background-color: #1a1a1a;
     color: white; 
@@ -169,27 +184,12 @@ table th, td {
     text-align: center;
 }
 
-/*Página Login*/
+/*Página login.html*/
 
-#edit_form{
-    text-align: center;
-}
-
-.edit_input{
-    width: 300px;
-    height: 30px;
-    border: 2px solid rgb(188, 146, 21);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-#button_login{
+.button_submit{
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    width: 200px;
     margin: 10px;
     padding: 10px;
     border: 2px solid black;
@@ -197,6 +197,36 @@ table th, td {
     cursor: pointer;
 }
 
-#button_login:hover{
+.button_submit:hover{
     background-color: lightgrey;
-}   
+}
+
+/*Página adm.html*/
+
+
+/*Página form.html*/
+
+#boxform {
+    border: 3px solid rgb(230, 218, 129);
+    border-radius: 7px;
+    background-color: rgb(250, 242, 185);
+    padding: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: justify;
+}
+
+#button_clear{
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button_clear:hover{
+    background-color: lightgrey;
+}
